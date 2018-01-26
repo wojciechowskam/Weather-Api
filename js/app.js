@@ -29,7 +29,7 @@ $(function() {
                 $("img").attr("src", "images/sunny.png");
             } else if ($(".text").text() === "Light rain" || $(".text").text() === "Moderate rain" || $(".text").text() === "Heavy rain") {
                 $("img").attr("src", "images/rain.png");
-            } else if ($(".text").text() === "Heavy snow" || $(".text").text() === "Light snow showers" || $(".text").text() === "Moderate snow" || $(".text").text() === "Patchy light snow") {
+            } else if ($(".text").text() === "Heavy snow" || $(".text").text() === "Light snow showers" || $(".text").text() === "Moderate snow" || $(".text").text() === "Light snow" || $(".text").text() === "Patchy light snow") {
                 $("img").attr("src", "images/snow.png");
             } else if ($(".text").text() === "Cloudy" || $(".text").text() === "Overcast") {
                 $("img").attr("src", "images/cloudy.png");
