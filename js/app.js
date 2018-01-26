@@ -1,7 +1,7 @@
 $(function() {
 
     function weatherInfo(name) {
-        var url = "http://api.apixu.com/v1/current.json?key=2ba909391d2f4f7e919175332182401&q=" + name;
+        var url = "https://api.apixu.com/v1/current.json?key=2ba909391d2f4f7e919175332182401&q=" + name;
         var span = $(".weather");
         var p = $(".description");
         console.log(url);
@@ -55,7 +55,7 @@ $(function() {
         $(".info").show();
         weatherInfo(input.val());
         input.val("");
-        
+
     });
 
 });
