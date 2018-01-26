@@ -40,7 +40,7 @@ $(function() {
             } else if ($(".text").text() === "Patchy rain possible") {
                 $("img").attr("src", "images/umbrella.png");
             } else {
-                $("img").attr("src", "images/none.png");
+                $("img").attr("src", "");
             }
 
         });
